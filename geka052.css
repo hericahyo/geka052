@@ -129,6 +129,208 @@ a:hover{
 
 /* Main */
 
+#hp-show{display:none}
+#hp-hidden{display:block}
+#haldua,#haltiga,#halempat,#hallima,#Content6{display:none;width:100%;height:auto;text-align:left; overflow: auto;}
+#haldua,#haltiga,#halempat,#hallima,#Content6 a{cursor:pointer;}
+#haldua,#haltiga,#halempat,#hallima,#Content6 p{cursor:pointer;}
+
+	#halamansatu {
+		width:100%;
+		height:auto;
+		overflow:auto;
+		background: ;
+			
+	}
+
+	.halamansatu{
+		background:url(https://2.bp.blogspot.com/-5swlspg78fs/XGu5UWvTamI/AAAAAAAAFQY/uLC3PF1ZoEYLQjuOXVo_dNSr9ztcS_tawCLcBGAs/s1600/Screenshot%2B%25284%2529%2Bcopy.png) repeat-x right top;
+	}
+
+	#haldua {
+		width:100%;
+		height:auto;
+		overflow:auto;
+		background: ;
+			
+	}
+	#haltiga {
+		width:100%;
+		height:auto;
+		overflow:auto;
+		background: ;
+			
+	}
+
+	.halempat{
+		padding:0 10px 100px 10px;
+	}
+
+
+.menu-name{
+	background:#f2f2f2;
+	padding:5px;
+
+}
+.menu-name a{
+	text-align:center;
+	font-weight:bold;
+	font-family:calibri;
+}
+
+.menu-name i{
+	text-align:left;
+	padding-right:10px;
+}
+
+.tombol{
+    color: #fff;
+    background: #e8330f;
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    width: 100%;
+    padding: 0 1.4em;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 0 #0f73ee;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+.tombol-follow a{
+float:left;
+display:inline-block;
+padding:5px 10px;
+margin:0 2%;
+overflow:hidden;
+border:2px solid #0077ff;
+border-radius:100px;
+width:46%;
+color:#0077ff;
+box-shadow: 1px 1px 3px 0 rgba(0,0,0,.25);
+}
+
+.tombol-follow a:hover{
+	background:#bad3ff;
+	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.25);
+}
+.tombol-follow{
+padding:5px 5px 10px 5px;
+float:left;
+text-align:center;
+width:100%;
+border-bottom: 4px solid rgba(0,0,0,.25);
+border-bottom-left-radius:15px;
+clear:both;
+background:#fff;
+}
+
+.tentang{
+	padding-bottom:10px;
+	background:#fff;
+}
+
+.tag{
+	text-align:center;
+	font-size:12px;
+	font-weight:bolder;
+	color:#555;
+	font-family:calibri;
+}
+
+h2{font-family: "Helvetica Neue",Helvetica,Arial;font-size: 17px;line-height: 1.6;color: #666;text-align:center;padding:0px 0px 0px 5px;}
+h5{text-align:left;font-family:'Oswald', sans-serif;font-size:15px;padding:7px;overflow:hidden;}
+.judul-footer{text-align:left;font-family:'Oswald', sans-serif;font-size:19px;padding:7px;}
+
+.blogger-post-labels{font-color:#39f9f1;text-align:left;font-family:calibri;font-size:15px;padding:5px 10px;text-align:left;}
+
+.post-body img{width:100%;height:auto;margin-left:-15px;padding:5px;border:1px solid #dedede;background-color:#fff;border-radius:3px;}
+
+.icon-fa-facebook{font-color:#fff;}
+
+/* error page */
+#error-page {background-color:;position:!important;text-align:center;top:0;right:0;bottom:0; left:0;z-index:;}
+#error-page  #search-box {margin: 2% 41%}#error-inner {margin:5% auto;}
+#error-inner .box-404 {width:200px;height:200px;background:#00B4AC;color:#fff;font-size:80px;line-height:200px;border-radius:50%;margin:0 auto 20px;position:relative;}
+.box-404 img{width:100%;height:auto;}
+#error-inner .box-404::after {content:&quot; &quot;;width:0;height:0;bottom:-8px;border-color:#21afa4 transparent transparent;}
+#error-inner h1 {color: #000;text-transform:uppercase;}
+#error-inner p {font-size:15px;color:#000;}
+border-style:solid;border-width:9px 9px 0;position:absolute;left:47%;}
+.search404 {width: 300px; height: auto; margin: 0 auto 20px;}
+input#search-text {height: 27px;width: 250px;padding-left: 10px;color:#9e9e9e;}
+
+.xcomments{
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+#comments-area{
+	border:1px solid #fff;
+	margin-bottom:10px;
+}
+
+.comment-item{
+	clear:both;
+	margin-bottom:10px;
+}
+
+.author-comment{
+	clear:both;
+	display:block;
+	margin-bottom:10px;
+}
+
+.avatar-box {
+	width:10%;
+	height:auto;
+	float:left;
+}
+
+.content_msg{
+	width:90%;
+	float:right;
+	
+}
+
+.comment-body{
+	text-align:left;
+	font-family: "Helvetica Neue",Helvetica,Arial;
+	padding:5px;
+	background:#fff;
+
+}
+.comment-bottom-line li{
+	list-style-type:none;
+	float:left;
+	padding:3px 5px;
+	background:#fff;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.avatar-image-container img{
+	width:75%;
+	height:auto;
+}
+
+.custom-comment-form{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.blogger-comment-from-post{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:left;
+	overflow:none;
 
 	.cv-layout{
 		width: 70%;
