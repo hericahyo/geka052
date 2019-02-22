@@ -1025,3 +1025,39 @@ MEDIA QUERIES
 	width: 100%; background: red; border: 0.5px solid grey; margin: 2px;
 	height: auto;
 }
+
+	.act-btn{
+            background:transparent;
+			width:100%;
+            display: block;
+            height: auto;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: ease all 0.3s;
+            position: fixed;
+			
+        }
+.act-btn a:hover{background: #ff8800;}
+.act-btn a:hover i{background: #fff;}
+.act-btn a:active{background: pink;}
+
+.act-btn a{
+	width:20%;
+	background:#fff;
+	float:left;
+	display:block;
+	padding:10px 7px;
+	height:50px;
+	color:#989898;
+}
+.act-btn a i{
+	padding:7px 10px;
+}
+
+.act-btn a img{
+}
+
