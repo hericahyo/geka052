@@ -129,11 +129,7 @@ a:hover{
 
 /* Main */
 
-#hp-show{display:none}
-#hp-hidden{display:block}
-#haldua,#haltiga,#halempat,#hallima,#Content6{display:none;width:100%;height:auto;text-align:left; overflow: auto;}
-#haldua,#haltiga,#halempat,#hallima,#Content6 a{cursor:pointer;}
-#haldua,#haltiga,#halempat,#hallima,#Content6 p{cursor:pointer;}
+
 
 	#halamansatu {
 		width:100%;
