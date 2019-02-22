@@ -1,4 +1,5 @@
 
+
 /*css3 design scrollbar*/
 ::-webkit-scrollbar {
     width: 0px;height:5px;
@@ -12,8 +13,8 @@
     background: #e31937;
     border-radius:100px;
 }
-</style>
-<style>
+
+
 .topnav {
   	overflow: hidden;
 	width: 100%;
@@ -401,7 +402,7 @@ a:hover{
 		margin: 0px;
 		float: left;
 	}
-		
+	
 	.middle{
 		width:86%;
 		height:auto;
@@ -571,8 +572,9 @@ MEDIA QUERIES
 	}
 
 
-.halamansatu{
+	.halamansatu{
 		background:url(https://4.bp.blogspot.com/-u-jNE0n0d4M/XG5b7YcDrBI/AAAAAAAAFR4/eKsSUdzPpegCxEWWxNw1HTj0TFHCxUYVACLcBGAs/s1600/background%2Bcv%2Blayout%2Bcopy.png) repeat-x right top;
+		padding-bottom:80px;
 	}
 
 #hp-show{display:block;}
@@ -667,7 +669,7 @@ MEDIA QUERIES
 .kolom-8{width:	100.00%;float:left;clear:both;height:auto;}
 .kolom-9{width:48%;float:left;height:auto;background:#fff;border-radius:9px;margin:1%;}
 .kolom-10{width:48%;float:left;height:auto;background:#fff;border-radius:9px;margin:1%;}
-.kolom-11{width:48.00%;float:left;display:block;clear:none;margin:1%;padding-top:160px;border:none;}
+.kolom-11{width:48.00%;float:left;display:block;clear:none;margin:1%;padding-top:160px;border:1px solid #fff;}
   .fa-fb-1{height:210px;}
   .fa-ig-1{height:210px;}
   .fa-tw-1{height:210px;}
@@ -693,7 +695,7 @@ MEDIA QUERIES
 .kol-7{width:100.00%;float:left;height:auto;clear:both;padding:5px;}
 .kol-8{width:100.00%;float:left;height:auto;clear:both;}
 .kol-9{width:100.00%;float:left;height:auto;clear:both;}
-.kol-10{width:100.00%;float:left;height:auto;clear:both;box-shadow:none;overflow:auto;}
+.kol-10{width:100.00%;float:left;height:auto;clear:both;overflow:auto;}
 
 
 
@@ -719,6 +721,7 @@ MEDIA QUERIES
 	.tengahh {
 		padding-left:10px;
 		padding-right:10px;
+		padding-bottom:100px;
 		background: transparent;
 	}
 	.middle {
