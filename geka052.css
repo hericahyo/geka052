@@ -1,4 +1,3 @@
-﻿<style>
 
 /*css3 design scrollbar*/
 ::-webkit-scrollbar {
@@ -80,8 +79,7 @@
   }
 
 }
-</style>
-<style>
+
 *{
 	padding: 0;
 	margin: 0;
@@ -822,5 +820,3 @@ MEDIA QUERIES
 	width: 100%; background: red; border: 0.5px solid grey; margin: 2px;
 	height: auto;
 }
-
-</style>
