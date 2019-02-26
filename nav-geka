@@ -1,0 +1,113 @@
+#sidebar {
+  position: absolute;
+  left: 50px;
+  top: 0;
+}
+nav.nav-geka {
+  width: auto;
+  /*display: none;*/
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+nav.nav-geka.stick {
+  /*display: block;*/
+  opacity: 1;
+  visibility: visible;
+  position: fixed;
+  top: 190px;
+  z-index: 999;
+  /*margin-top:12px;*/
+}
+nav.nav-geka ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav.nav-geka ul:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 1px;
+  /*height: 145px;*/
+  height: calc(100% - 60px);
+  background: #d8d8d8;
+  z-index: -1;
+}
+.main-content {
+  position: relative;
+}
+nav.nav-geka li a {
+  background: #5e50a1;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 60px;
+}
+/*section1*/
+nav.nav-geka li a.slide-zero.nav-active,
+nav.nav-geka li a.slide-one.nav-active,
+nav.nav-geka li a.slide-two.nav-active,
+nav.nav-geka li a.slide-three.nav-active {
+  position: relative;
+}
+nav.nav-geka li a.slide-one.nav-active:after {
+  content: url(../images/icon/ic_slide1.svg);
+  background-color: #fff;
+  padding-top: 5px;
+  text-align: center;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #5e50a1;
+  border-radius: 50%;
+}
+/*section2*/
+nav.nav-geka li a.slide-zero.nav-active:after,
+nav.nav-geka li a.slide-two.nav-active:after {
+  content: url(../images/icon/ic_slide3.svg);
+  background-color: #fafbfc;
+  padding-top: 5px;
+  text-align: center;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #5e50a1;
+  border-radius: 50%;
+}
+/*section3*/
+nav.nav-geka li a.slide-three.nav-active:after {
+  content: url(../images/icon/ic_slide2.svg);
+  background-color: #fff;
+  padding-top: 5px;
+  text-align: center;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #5e50a1;
+  border-radius: 50%;
+}
+.nav-pills > li[data-slide-to="0"].active a {
+  background-color: #16a085;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+  background-color: #e67e22;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+  background-color: #2980b9;
+}
+.nav-pills > li[data-slide-to="3"].active a {
+  background-color: #8e44ad;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 90px;
